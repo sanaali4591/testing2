@@ -33,6 +33,8 @@ export class PhotoService {
       
         // Web platform only: Save the photo into the base64 field
         photo.webviewPath = `data:image/jpeg;base64,${readFile.data}`;
+      console.log('AT SERVICE:'+ photo.webviewPath);
+      
       }
     }
   }
