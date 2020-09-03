@@ -41,10 +41,6 @@ export class Tab2Page {
               .catch((error: any) => console.error(error));
 
               console.log('photo.filepath : '+photo.filepath);
-             
-          
-         
-
          }
       }]
     });
